@@ -32,8 +32,8 @@ class AliyunDriveSigner {
                 { "_rx-s": "mobile" },
                 {
                     headers: {
-                        'Authorization': `Bearer ${this.accessToken}`,
-                        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15'
+                        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 AliApp(AliYunDingTalk/6.0.0)',
+                        'x-client-version': '6.0.0'  // 新增版本标识‌:ml-citation{ref="5" data="citationList"}
                     }
                 }
             );
